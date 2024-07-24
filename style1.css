@@ -1,0 +1,66 @@
+.navigation {
+  display: flex;
+  background-color: yellow;
+  color: black;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding: 20px;
+  margin-left: 30%;
+  list-style: none;
+  /* background-color: yellow;
+    color: black; */
+  font-size: 25px;
+}
+/* middle portion start */
+section{
+    margin-top: 10%;
+}
+.web {
+  margin-left: 8%;
+  width: 300px;
+  color: blue;
+}
+.content{
+    width: 500px;
+    margin-left: 8%;
+    /* border: 2px solid black; */
+}
+.btns .button{
+    /* border: none; */
+    background-color: black;
+  color:yellow;
+   padding: 15px 20px;
+  /* text-align: center; */
+  font-weight: 600;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  font-size: 20px; 
+   margin-left: 10%; 
+  cursor: pointer;
+  border-radius: 5%;
+  margin-top: 4%;
+  
+}
+.btns .button:hover{
+    color: aqua;
+    background-color: blue;
+    font-weight: bold;
+}
+.btns .btn{
+    background-color: black;
+    color:yellow;
+     padding: 15px 20px;
+     font-size: 20px; 
+   margin-left: 0%; 
+  cursor: pointer;
+  border-radius: 5%;
+  margin-top: 4%;
+  font-weight: 600;
+}
+.img{
+    float: right;
+
+}
